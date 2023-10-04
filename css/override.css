@@ -8,6 +8,16 @@ hr {
   display: flex;
 }
 
+/* changes width, margins, and padding of a page */
+.wrapper {
+    max-width: -webkit-calc(850px - (30px * 2));
+    max-width: calc(600px - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
 .post_navi-label {
   font-size: 0.8em;
   opacity: 0.5;
